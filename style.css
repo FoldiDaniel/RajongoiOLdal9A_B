@@ -1,0 +1,10 @@
+.nav-item:hover .nav-link:hover{
+    background-color: rgb(2, 117, 216);
+}
+.nav-item:active .nav-link:active {
+    background-color: rgb(2, 117, 216);
+    color: white;
+}
+.nav-item .nav-link {
+    margin-left: 15px;
+}
