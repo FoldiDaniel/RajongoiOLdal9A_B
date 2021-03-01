@@ -8,3 +8,9 @@
 .nav-item .nav-link {
     margin-left: 15px;
 }
+body {
+    background-image: url('r6s.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+  }
