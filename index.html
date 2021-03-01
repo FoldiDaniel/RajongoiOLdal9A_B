@@ -13,9 +13,28 @@
 </head>
 
 <body style="height: 1500px;">
-    <div class="container-fluid" style="margin-top: 150px;">
-        <p>A rainbowSixSiege egy tatikai lövöldözös játék. Amit az Ubisoft Montreal (Kanadai fejlesztő stúdió) fejleszt. A  játékot a 2014-es E3-on mutatták be. 2015 végén adták ki windows-ra play-starionra és xbox-ra </p>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+        <a class="navbar-brand active" href="#" onclick="$('#mainContainer').load('index.html');"><img src="Logo kép2.png" alt="R6 logó" title="Kezdőlap" height="59,25px" width="176,25"></a>
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#" onclick="$('#mainContainer').load('R6_tortenete.html');">A Ranibow Six Siege története</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#" onclick="$('#mainContainer').load('E-sport.html');">E-sport</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#" onclick="$('#mainContainer').load('kapcsolat.html');">Kapcsolat</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"  onclick="$('#mainContainer').load('nevjegy.html');">Névjegy</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="container-fluid" id="mainContainer" style="margin-top: 150px;">
     </div>
+    <script>
+        $("#mainContainer").load("index.html")
+    </script>
 </body>
 
 </html>
