@@ -45,5 +45,12 @@ img{
 }
 .card-columns{
   position: relative;
-  left: 100px;
+}
+.esportcim{
+ position: relative;
+text-align: center;
+}
+.esportleiras{
+position: relative;
+left: 7%;
 }
