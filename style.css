@@ -37,3 +37,13 @@ body {
 img{
   opacity: 1;
 }
+.card-img-bottom {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: -7px; ;
+}
+.card-columns{
+  position: relative;
+  left: 100px;
+}
