@@ -13,6 +13,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  display: table;
 }
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -53,4 +54,12 @@ text-align: center;
 .esportleiras{
 position: relative;
 left: 7%;
+.lábléc{
+  color: white;
+  text-align: center;
+  display: table-footer-group;
+  width:100%;
+  background-color: black;
+  opacity: 0.5;
+  font-size: 75%;
 }
