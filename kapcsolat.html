@@ -1,4 +1,89 @@
 <!DOCTYPE html>
-<div class="container-fluid" style="margin-top: 150px;">
-    <p>Még dolgozunk rajta...</p>
+<div class="container" style="margin-top: 150px;">
+    <form action="ürlap.html">
+        <div class="row">
+            <div class="col-25">
+                <label for="fname">Vezetéknév*</label>
+            </div>
+            <div class="col-75">
+                <input type="text" name="firstname" id="fname" placeholder="Vezetéknév" required>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-25">
+                <label for="lname">Keresztnév*</label>
+            </div>
+            <div class="col-75">
+                <input type="text" name="lastname" id="lname" placeholder="Keresztnév" required>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-25">
+                <label for="email">E-mail*</label>
+            </div>
+            <div class="col-75">
+                <input type="email" name="email" id="email" placeholder="E-mail" required>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-25">
+                <p>Játszott már a Rainbow Six Siege-el?*</p>
+            </div><br>
+            <div class="col-75">
+                <input type="radio" name="jatek" id="igen" value="igen" required>
+                <label for="igen">Igen</label><br>
+                <input type="radio" name="jatek" id="nem" value="nem">
+                <label for="nem">Nem</label><br>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-25">
+                <p>Ha játszott vele, tetszett a játék?</p>
+            </div><br>
+            <div class="col-75">
+                <input type="radio" name="tetszett" id="igen2" value="igen">
+                <label for="igen2">Igen</label><br>
+                <input type="radio" name="tetszett" id="nem2" value="nem">
+                <label for="nem2">Nem</label><br>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-25">
+                <label for="country">Melyik földrész R6 csapatait követed legjobban?</label>
+            </div>
+            <div class="col-75">
+                <select id="country" name="country">
+                    <option value="">Észak-Amerika</option>
+                    <option value="">Dél-Amerika</option>
+                    <option value="">Európa</option>
+                    <option value="">Ázsia</option>
+                    <option value="" selected>Egyiket sem</option>
+                </select>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-25">
+                <label for="velemeny">Mi a véleménye az oldalunkró?</label>
+            </div>
+            <div class="col-75">
+                <textarea name="velemeny" id="velemeny" placeholder="Írjon valamit"></textarea>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-25">
+                <label for="javaslat">Van-e valamilyen javaslata, észrevétele vagy problémája az oldalunkkal kapcsolatban? Ha igen, kérjük írja le!</label>
+            </div>
+            <div class="col-75">
+                <textarea name="javaslat" id="javaslat" placeholder="Írjon valamit"></textarea>
+            </div>
+        </div>
+        <div class="row" style="float: right;">
+            <input type="submit" value="Elküld">
+        </div>
+        <div class="row" style="float: right;">
+            <input type="reset" value="Adatok törlése">
+        </div>
+    </form>
+    <div><p class="kötelező">A *-gal jelölt mezők kitöltése kötelező</p></div>
+
 </div>
