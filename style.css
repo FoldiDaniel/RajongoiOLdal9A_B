@@ -21,7 +21,6 @@ body {
   width: 10%;
   height: ;
   text-align: center;
-  
 }
 
 .card:hover {
@@ -32,33 +31,35 @@ body {
   padding: 2px 16px;
 }
 
-.card-group{
+.card-group {
   align-self: center;
-  }
-img{
+}
+img {
   opacity: 1;
 }
 .card-img-bottom {
   margin-left: auto;
   margin-right: auto;
   position: relative;
-  top: -7px; ;
+  top: -7px;
 }
-.card-columns{
+.card-columns {
   position: relative;
 }
-.esportcim{
- position: relative;
-text-align: center;
+.esportcim {
+  position: relative;
+  text-align: center;
 }
-.esportleiras{
-position: relative;
-left: 7%;
-.lábléc{
+.esportleiras {
+  position: relative;
+  left: 7%;
+}
+
+.lábléc {
   color: white;
   text-align: center;
   display: table-footer-group;
-  width:100%;
+  width: 100%;
   background-color: black;
   opacity: 0.5;
   font-size: 75%;
