@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body style="height: 1500px;">
+<body>
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
         <a class="navbar-brand active" href="#" onclick="$('#mainContainer').load('main.html');"><img src="Logo kép2.png" alt="R6 logó" title="Kezdőlap" height="59,25px" width="176,25"></a>
         <ul class="navbar-nav">
@@ -26,12 +26,21 @@
                 <a class="nav-link" href="#" onclick="$('#mainContainer').load('kapcsolat.html');">Kapcsolat</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#"  onclick="$('#mainContainer').load('nevjegy.html');">Névjegy</a>
+                <a class="nav-link" href="#" onclick="$('#mainContainer').load('nevjegy.html');">Névjegy</a>
             </li>
         </ul>
     </nav>
     <div class="container-fluid" id="mainContainer" style="margin-top: 150px;">
     </div>
+    <div class="lábléc">
+        <h6>Készítők:</h6>
+        <ul style="list-style-type: none;">
+            <li>Dremák Olivér</li>
+            <li>Földi Dániel</li>
+            <li>Korsós Erik</li>
+        </ul>
+    </div>
+
     <script>
         $("#mainContainer").load("main.html")
     </script>
