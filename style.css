@@ -71,16 +71,20 @@ img {
   position: relative;
   top: -7px;
 }
-.card-columns {
-  position: relative;
+.card-columns{
+  text-align: center;
+}
+
+.card-group{
+  text-align: center;
 }
 .esportcim {
   position: relative;
   text-align: center;
+  color: white;
 }
 .esportleiras {
-  position: relative;
-  left: 7%;
+  color: white;
 }
 .lábléc {
   margin-top: 50px;
@@ -194,6 +198,7 @@ input[type="reset"]:hover {
   color: white;
   text-decoration: none;
 }
+.szeria{
 h1 {
   color: white;
 }
