@@ -194,6 +194,9 @@ input[type="reset"]:hover {
   color: white;
   text-decoration: none;
 }
+h1 {
+  color: white;
+}
 .helykitöltés{
   margin-bottom: 350px;
 }
