@@ -38,12 +38,6 @@ a {
 .p2 {
     color: white;
 }
-  background-image: url("r6s.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  display: table;
-}
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
@@ -198,7 +192,7 @@ input[type="reset"]:hover {
   color: white;
   text-decoration: none;
 }
-.szeria{
+.szeria{ color: white;}
 h1 {
   color: white;
 }
