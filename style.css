@@ -20,4 +20,15 @@ body {
 table {
     border-color: aqua ;
     border-collapse: unset;
+    color: white;
+}
+.progressbar {
+    margin-left: 0%;
+    color: aliceblue;
+}
+h2 {
+    color: white;
+}
+.szoveg2 {
+    color: white;
 }
