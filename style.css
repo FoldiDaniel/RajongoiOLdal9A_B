@@ -9,6 +9,35 @@
   margin-left: 15px;
 }
 body {
+    background-image: url('r6s_background.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+  }
+.szoveg {
+    color: azure;
+}
+table {
+    border-color: aqua ;
+    border-collapse: unset;
+    color: white;
+}
+.progressbar {
+    margin-left: 0%;
+    color: aliceblue;
+}
+h2 {
+    color: white;
+}
+.szoveg2 {
+    color: white;
+}
+a {
+    color: aqua;
+}
+.p2 {
+    color: white;
+}
   background-image: url("r6s.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -165,3 +194,4 @@ input[type="reset"]:hover {
   color: white;
   text-decoration: none;
 }
+
