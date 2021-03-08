@@ -14,3 +14,6 @@ Az oldal készítői:
 - Dremák Olivér
 - Földi Dániel
 - Korsós Erik
+
+
+### Az oldal megtekinthető a következő linken: https://foldidaniel.github.io/RajongoiOLdal9A_B/
