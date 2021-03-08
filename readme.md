@@ -16,4 +16,4 @@ Az oldal készítői:
 - Korsós Erik
 
 
-### Az oldal megtekinthető a következő linken: https://foldidaniel.github.io/RajongoiOLdal9A_B/
+#### Az oldal megtekinthető a következő linken: https://foldidaniel.github.io/RajongoiOLdal9A_B/
