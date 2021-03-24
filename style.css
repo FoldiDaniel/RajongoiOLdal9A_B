@@ -10,7 +10,11 @@
 }
 body {
     background-image: url('r6s_background.jpeg');
+
     background-position: center center;
+
+  
+
     background-repeat: no-repeat;
     background-attachment: fixed;  
     background-size: cover;
@@ -188,9 +192,9 @@ h1 {
 .helykitöltés{
   margin-bottom: 350px;
 }
-media screen and (max-width: 950px) {
-  .sor1, .sor2, .sor3 {
-    width: 50%;
-    margin-top: 0;
-  }
+
+
+tr:hover {
+  background-color: gray;
 }
+
