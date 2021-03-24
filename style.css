@@ -132,27 +132,7 @@ input[type="submit"]:hover {
   display: table;
   clear: both;
 }
-@media screen and (max-width: 600px) {
-  .col-25,
-  .col-75,
-  input[type="submit"] {
-    width: 100%;
-    margin-top: 0px;
-  }
-  .elsőelem {
-    margin-top: 50px;
-  }
-}
-@media screen and (max-width: 470px) {
-  .elsőelem {
-    margin-top: 100px;
-  }
-}
-@media screen and (max-width: 275px) {
-  .elsőelem {
-    margin-top: 150px;
-  }
-}
+
 form {
   color: white;
 }
@@ -203,3 +183,4 @@ h1 {
 tr:hover {
   background-color: gray;
 }
+
