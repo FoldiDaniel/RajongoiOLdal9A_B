@@ -10,6 +10,7 @@
 }
 body {
     background-image: url('r6s_background.jpeg');
+    background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;  
     background-size: cover;
@@ -118,13 +119,21 @@ input[type="submit"]:hover {
 }
 .col-25 {
   float: left;
-  width: 50%;
+  text-align: left;
+  width: 25%;
   margin-top: 6px;
+  
 }
 .col-75 {
   float: left;
-  width: 50%;
+  width: 75%;
   margin-top: 6px;
+}
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
 }
 .row:after {
   content: "";
@@ -179,6 +188,9 @@ h1 {
 .helykitöltés{
   margin-bottom: 350px;
 }
-.menü{
-  margin-bottom: 500px;
+media screen and (max-width: 950px) {
+  .sor1, .sor2, .sor3 {
+    width: 50%;
+    margin-top: 0;
+  }
 }
